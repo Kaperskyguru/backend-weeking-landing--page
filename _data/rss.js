@@ -19,7 +19,9 @@ module.exports = async function () {
   const result = parser.XMLValidator.validate(response);
 
   if (result === true) {
-    const xmlparser = new parser.XMLParser({ ignoreAttributes: false });
+    const xmlparser = new parser.XMLParser({
+      ignoreAttributes: false,
+    });
     feed = xmlparser.parse(response);
   } else {
     console.error(
@@ -30,10 +32,16 @@ module.exports = async function () {
 
   let posts = feed.rss.channel.item;
 
+  console.log(posts);
+
   let transformedPosts = posts.map((post) => {
     let transformedPost = {};
+
+    console.log(post["itunes:image"]);
+
     transformedPost.date = new Date(post?.pubDate);
     transformedPost.url = post?.link;
+    transformedPost.image = post["itunes:image"]["@_href"];
     transformedPost.title = post?.title;
     transformedPost.description = post?.description;
     transformedPost.audio = post?.enclosure;

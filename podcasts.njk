@@ -6,7 +6,7 @@ description: "Tune in to learn how to become a great backend engineer from the e
 
 <main class="podcast">
     <section class="bg-primary">
-        <div class="flex lg:flex-col flex-row max-w-7xl mx-auto items-center justify-evenly px-10 pt-20 md:pt-40 gap-x-10">
+        <div class="flex lg:flex-col flex-row w-full max-w-7xl mx-auto items-center justify-evenly px-10 pt-20 md:pt-40 gap-x-10">
             <div class="flex w-full flex-row items-ceter pt-[72px] mb-10">
                 <div class="md:mt-0">
                     <div class="mb-20 pb-20 flex w-full  flex-col  items-center space-y-3  md:space-y-5">
@@ -16,10 +16,10 @@ description: "Tune in to learn how to become a great backend engineer from the e
                                 Podcast.
                             </span>
                         </h1>
-                        <p class="text-white w-1/2 text-center pt-6 text-xl">
+                        <p class="text-white w-full md:w-1/2  text-center pt-6 text-xl">
                             Tune in to learn how to become a great backend engineer from the experiences of other great backend engineers.
                         </p>
-                        <p class="text-white w-1/2 text-center pt-6 text-xl">Solomon Eseme, the founder of
+                        <p class="text-white w-full md:w-1/2 text-center pt-6 text-xl">Solomon Eseme, the founder of
                             <a target="_blank" href="https://masteringbackend.com">Masteringbackend.com</a>
                             interviews great backend engineers to get insights into various backend engineering concepts and career tips for new
                             backend engineers.
@@ -133,22 +133,25 @@ description: "Tune in to learn how to become a great backend engineer from the e
             </h2>
             <div class="flex lg:flex-row flex-col md:grid grid-cols-3 my-10 gap-10">
                 {% for post in rss %}
-                    <div class="w-full border rounded-lg p-4 hover:shadow">
-                        <div class="flex flex-col gap-4 justify-center">
-                            <a target="_blank" href="{{ post.url }}" class="flex w-ful gap-0 hover:text-secondary">
-                                <h2 class="text-xl font-medium">{{ post.title }}</h2>
-                            </a>
+                    <div class="w-full border lg:flex justify-between gap-5 rounded-lg p-4 hover:shadow">
+                        <div class="h-auto pb-3 w-full  ">
+                            <img class="w-full w-24 h-auto w-24 md:w-48 md:h-auto md:rounded-lg rounded-full mx-auto" src="{{ post.image }}" alt="" width="384" height="512"/>
                         </div>
-                        <div class="py-5">
-                            <audio controls>
-                                <source src="{{ post.audio['@_url'] }}" type="{{ post.audio['@_type'] }}">
-                                    Your browser does not support the audio element.
+                        <div class="">
+                            <div class="flex w-full flex-col gap-4 justify-center">
+                                <a target="_blank" href="{{ post.url }}" class="flex gap-0 hover:text-secondary">
+                                    <h2 class="text-lg font-medium">{{ post.title }}</h2>
+                                </a>
+                            </div>
+                            <div class="pt-5 w-full">
+                                <audio class="w-full" controls>
+                                    <source src="{{ post.audio['@_url'] }}" type="{{ post.audio['@_type'] }}"/> Your browser does not support the audio element.
                                 </audio>
                             </div>
                         </div>
-                    {% endfor %}
-                </div>
+                    </div>
+                {% endfor %}
             </div>
         </div>
-    </section>
-</main>
+    </div>
+</section></main>

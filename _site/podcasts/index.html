@@ -214,7 +214,7 @@
 
 <main class="podcast">
     <section class="bg-primary">
-        <div class="flex lg:flex-col flex-row max-w-7xl mx-auto items-center justify-evenly px-10 pt-20 md:pt-40 gap-x-10">
+        <div class="flex lg:flex-col flex-row w-full max-w-7xl mx-auto items-center justify-evenly px-10 pt-20 md:pt-40 gap-x-10">
             <div class="flex w-full flex-row items-ceter pt-[72px] mb-10">
                 <div class="md:mt-0">
                     <div class="mb-20 pb-20 flex w-full  flex-col  items-center space-y-3  md:space-y-5">
@@ -224,10 +224,10 @@
                                 Podcast.
                             </span>
                         </h1>
-                        <p class="text-white w-1/2 text-center pt-6 text-xl">
+                        <p class="text-white w-full md:w-1/2  text-center pt-6 text-xl">
                             Tune in to learn how to become a great backend engineer from the experiences of other great backend engineers.
                         </p>
-                        <p class="text-white w-1/2 text-center pt-6 text-xl">Solomon Eseme, the founder of
+                        <p class="text-white w-full md:w-1/2 text-center pt-6 text-xl">Solomon Eseme, the founder of
                             <a target="_blank" href="https://masteringbackend.com">Masteringbackend.com</a>
                             interviews great backend engineers to get insights into various backend engineering concepts and career tips for new
                             backend engineers.
@@ -341,39 +341,46 @@
             </h2>
             <div class="flex lg:flex-row flex-col md:grid grid-cols-3 my-10 gap-10">
                 
-                    <div class="w-full border rounded-lg p-4 hover:shadow">
-                        <div class="flex flex-col gap-4 justify-center">
-                            <a target="_blank" href="https://podcasters.spotify.com/pod/show/gbe/episodes/API-Monitoring-and-Observability-for-Backend-Engineers-e2m077i" class="flex w-ful gap-0 hover:text-secondary">
-                                <h2 class="text-xl font-medium">API Monitoring and Observability for Backend Engineers</h2>
-                            </a>
+                    <div class="w-full border lg:flex justify-between gap-5 rounded-lg p-4 hover:shadow">
+                        <div class="h-auto pb-3 w-full  ">
+                            <img class="w-full w-24 h-auto w-24 md:w-48 md:h-auto md:rounded-lg rounded-full mx-auto" src="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41498016/41498016-1721177709820-44dfa766ca88f.jpg" alt="" width="384" height="512"/>
                         </div>
-                        <div class="py-5">
-                            <audio controls>
-                                <source src="https://anchor.fm/s/f7f18900/podcast/play/89184946/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-13%2F383125039-44100-2-4693f0b83ecbf.m4a" type="audio/x-m4a">
-                                    Your browser does not support the audio element.
+                        <div class="">
+                            <div class="flex w-full flex-col gap-4 justify-center">
+                                <a target="_blank" href="https://podcasters.spotify.com/pod/show/gbe/episodes/API-Monitoring-and-Observability-for-Backend-Engineers-e2m077i" class="flex gap-0 hover:text-secondary">
+                                    <h2 class="text-lg font-medium">API Monitoring and Observability for Backend Engineers</h2>
+                                </a>
+                            </div>
+                            <div class="pt-5 w-full">
+                                <audio class="w-full" controls>
+                                    <source src="https://anchor.fm/s/f7f18900/podcast/play/89184946/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-13%2F383125039-44100-2-4693f0b83ecbf.m4a" type="audio/x-m4a"/> Your browser does not support the audio element.
                                 </audio>
                             </div>
                         </div>
-                    
-                    <div class="w-full border rounded-lg p-4 hover:shadow">
-                        <div class="flex flex-col gap-4 justify-center">
-                            <a target="_blank" href="https://podcasters.spotify.com/pod/show/gbe/episodes/Importance-of-Database-in-Backend-engineering-e2l68f9" class="flex w-ful gap-0 hover:text-secondary">
-                                <h2 class="text-xl font-medium">Importance of Database in Backend engineering</h2>
-                            </a>
+                    </div>
+                
+                    <div class="w-full border lg:flex justify-between gap-5 rounded-lg p-4 hover:shadow">
+                        <div class="h-auto pb-3 w-full  ">
+                            <img class="w-full w-24 h-auto w-24 md:w-48 md:h-auto md:rounded-lg rounded-full mx-auto" src="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41498016/41498016-1721177709820-44dfa766ca88f.jpg" alt="" width="384" height="512"/>
                         </div>
-                        <div class="py-5">
-                            <audio controls>
-                                <source src="https://anchor.fm/s/f7f18900/podcast/play/88334249/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-5-22%2F381375831-44100-2-faabd668e482.m4a" type="audio/x-m4a">
-                                    Your browser does not support the audio element.
+                        <div class="">
+                            <div class="flex w-full flex-col gap-4 justify-center">
+                                <a target="_blank" href="https://podcasters.spotify.com/pod/show/gbe/episodes/Importance-of-Database-in-Backend-engineering-e2l68f9" class="flex gap-0 hover:text-secondary">
+                                    <h2 class="text-lg font-medium">Importance of Database in Backend engineering</h2>
+                                </a>
+                            </div>
+                            <div class="pt-5 w-full">
+                                <audio class="w-full" controls>
+                                    <source src="https://anchor.fm/s/f7f18900/podcast/play/88334249/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-5-22%2F381375831-44100-2-faabd668e482.m4a" type="audio/x-m4a"/> Your browser does not support the audio element.
                                 </audio>
                             </div>
                         </div>
-                    
-                </div>
+                    </div>
+                
             </div>
         </div>
-    </section>
-</main>
+    </div>
+</section></main>
 
     <footer>
       <div class="pb-3 pt-2">
