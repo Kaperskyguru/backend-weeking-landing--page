@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-2Z0M2PV7CQ"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-2Z0M2PV7CQ");
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Backend Engineering Podcast | Backend Weekly
+    </title>
+    <meta
+      name="keywords"
+      content="backend weekly, backend engineering tips, backend newsletter"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta
+      name="description"
+      content="Tune in to learn how to become a great backend engineer from the experiences of other great backend engineers. Solomon Eseme, the founder of Masteringbackend.com interviews great backend engineers to get insights into various backend engineering concepts and career tips for new backend engineers."
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:site" content="@kaperskyguru" />
+    <meta name="twitter:creator" content="@kaperskyguru" />
+    <meta
+      name="og:description"
+      content="Tune in to learn how to become a great backend engineer from the experiences of other great backend engineers. Solomon Eseme, the founder of Masteringbackend.com interviews great backend engineers to get insights into various backend engineering concepts and career tips for new backend engineers."
+    />
+    <meta property="og:url" content="https://backendweekly.dev" />
+    <meta
+      name="og:title"
+      content="Backend Engineering Podcast | Backend Weekly"
+    />
+    <meta
+      name="twitter:image"
+      content="https://media.beehiiv.com/cdn-cgi/image/format=auto,width=800,height=421,fit=scale-down,onerror=redirect/uploads/publication/thumbnail/f89b2662-103e-4d1a-b7d0-be7faf688586/landscape_BackendWeekly_Design.png"
+    />
+    <meta
+      property="og:image"
+      content="https://media.beehiiv.com/cdn-cgi/image/format=auto,width=800,height=421,fit=scale-down,onerror=redirect/uploads/publication/thumbnail/f89b2662-103e-4d1a-b7d0-be7faf688586/landscape_BackendWeekly_Design.png"
+    />
+
+    <link rel="icon" type="image/png" href="/favicon.ico" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#0f172a",
+              secondary: "#4F46E5",
+              tertiary: "#1e293b",
+            },
+          },
+        },
+      };
+    </script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/night-owl.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script>
+      hljs.highlightAll();
+
+      let isSidebarOpen = false;
+
+      function openSidebar() {
+        isSidebarOpen = !isSidebarOpen;
+
+        const sidebarWrapper = document.querySelector("#sidebar_wrapper");
+        const sidebar = document.querySelector("#sidebar");
+        if (!sidebar) return;
+
+        if (isSidebarOpen) {
+          sidebar.classList.add("open", "navbar_drawer");
+          sidebar.classList.remove("overflow-y-auto");
+          sidebar.style.maxWidth = ""; //('max-width')
+        } else sidebar.classList.remove("open", "navbar_drawer");
+      }
+    </script>
+
+    <style>
+      .layer h3 {
+        bottom: 0;
+        left: 14%;
+        position: absolute;
+        transition: 0.5s;
+      }
+      .layer:hover h3 {
+        bottom: 10%;
+        opacity: 1;
+        color: white;
+      }
+
+      .podcast a {
+        color: #4f46e5;
+      }
+
+      .listen a {
+        color: "#fff" !important;
+      }
+    </style>
+  </head>
+
+  <body class="">
+    <div class="h-full">
+      <header
+        class="fixed flex justify-center w-full top-0 left-0 mb-[80px] z-50 px-4 border-solid border-[#1e293b] border-b"
+      >
+        <nav
+          class="flex w-full items-center justify-between bg-[#0f172a] text-white p-3"
+        >
+          <div class="w-16">
+            <img
+              src="https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/publication/logo/f89b2662-103e-4d1a-b7d0-be7faf688586/thumb_BackendWeekly_logo.png"
+              alt="Backend Weekly Logo"
+            />
+          </div>
+
+          <div
+            class="flex-1 bg-[#0f172a] flex justify-center mx-5 bg-[#1e293b] rounded-md"
+          ></div>
+          <div class="justify-between my-3 gap-10 items-center hidden lg:flex">
+            <div>
+              <a
+                href="https://newsletter.masteringbackend.com"
+                class="flex gap-2'"
+              >
+                <span>Newsletter</span>
+              </a>
+            </div>
+
+            <div>
+              <a
+                href="https://masteringbackend.com/podcasts"
+                target="_blank"
+                class="flex gap-2'"
+              >
+                <span>Podcasts</span>
+              </a>
+            </div>
+
+            <div>
+              <a
+                href="https://masteringbackend.com/courses"
+                target="_blank"
+                class="flex gap-2'"
+              >
+                <span>Courses</span>
+              </a>
+            </div>
+
+            <div>
+              <a
+                href="https://newsletter.masteringbackend.com/c/products"
+                target="_blank"
+                class="flex gap-2'"
+              >
+                <span>Products</span>
+              </a>
+            </div>
+
+            <span class="flex gap-10 items-center">
+              <div>
+                <a
+                  href="https://newsletter.masteringbackend.com"
+                  class="bg-secondary px-4 py-3 font-bold rounded-md text-[#fff]"
+                >
+                  Join 10K+ Engineers
+                </a>
+              </div>
+              <div>
+                <a
+                  href="https://app.masteringbackend.com/?ref=backend-weekly-website"
+                  target="_blank"
+                  class="border-secondary border border-outline px-4 py-3 font-bold rounded-md text-white"
+                >
+                  Learn Backend
+                </a>
+              </div>
+            </span>
+          </div>
+
+          <div class="lg:hidden block" @click="openSidebar()">
+            <svg
+              focusable="false"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M3 5H20.359M3 18.186H20.359M3 11.592H20.359"
+                stroke="currentcolor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+            </svg>
+          </div>
+        </nav>
+      </header>
+    </div>
+        
+
+<main class="podcast">
+    <section class="bg-primary">
+        <div class="flex lg:flex-col flex-row max-w-7xl mx-auto items-center justify-evenly px-10 pt-20 md:pt-40 gap-x-10">
+            <div class="flex w-full flex-row items-ceter pt-[72px] mb-10">
+                <div class="md:mt-0">
+                    <div class="mb-20 pb-20 flex w-full  flex-col  items-center space-y-3  md:space-y-5">
+                        <h1 class="text-5xl md:text-6xl text-center font-bold text-white lg:text-8xl">
+                            The Great Backend Engineer (GBE)
+                            <span class="text-secondary">
+                                Podcast.
+                            </span>
+                        </h1>
+                        <p class="text-white w-1/2 text-center pt-6 text-xl">
+                            Tune in to learn how to become a great backend engineer from the experiences of other great backend engineers.
+                        </p>
+                        <p class="text-white w-1/2 text-center pt-6 text-xl">Solomon Eseme, the founder of
+                            <a target="_blank" href="https://masteringbackend.com">Masteringbackend.com</a>
+                            interviews great backend engineers to get insights into various backend engineering concepts and career tips for new
+                            backend engineers.
+                        </p>
+                    </div>
+                    <section class="text-white">
+                        <h2 class="mb-8 text-center text-xl  font-bold">Listen Anywhere</h2>
+                        <div class="mx-auto grid grid-cols-1 gap-4 md:grid-cols-4">
+                            <a
+                                target="_blank"
+                                href="https://www.youtube.com/playlist?list=PLxjEm_EJ1aKLI2IOp0_3Kxt_89_TktpUp"
+                                class="border rounded-lg border-solid border-[#7e7e81] text-white  flex flex-row gap-2 p-2">
+                                <svg role="img" fill="#FF0000" class="icon-youtube w-10" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <title>YouTube</title>
+                                    <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502
+                                        6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0
+                                        9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273
+                                        3.568z"></path>
+                                </svg>
+                                <div>
+                                    <p class="text-sm text-gray-500">Listen on</p>
+                                    <p class="font-bold text-white">YouTube</p>
+                                </div>
+                            </a>
+                            <a
+                                target="_blank"
+                                href="https://open.spotify.com/show/2wNpW7zHmwqwAVmqpwMxlF"
+                                class="border rounded-lg border-solid border-[#7e7e81] text-white  flex flex-row gap-2 p-2">
+                                <svg role="img" fill="#1DB954" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="w-10">
+                                    <title>Spotify</title>
+                                    <path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521
+                                        17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9
+                                        4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301
+                                        1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6
+                                        9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16
+                                        9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419
+                                        1.56-.299.421-1.02.599-1.559.3z"></path>
+                                </svg>
+                                <div>
+                                    <p class="text-sm text-gray-500">Listen on</p>
+                                    <p class="font-bold text-white">Spotify</p>
+                                </div>
+                            </a>
+                            <a
+                                target="_blank"
+                                href="https://podcasts.apple.com/us/podcast/great-backend-engineering-gbe/id1753473896"
+                                class="border rounded-lg border-solid border-[#7e7e81] text-white  flex flex-row gap-2 p-2">
+                                <svg role="img" fill="#9933CC" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="w-10">
+                                    <title>Apple Podcasts</title>
+                                    <path d="M5.34 0A5.328 5.328 0 000 5.34v13.32A5.328 5.328 0 005.34 24h13.32A5.328 5.328 0 0024 18.66V5.34A5.328 5.328 0 0018.66
+                                        0zm6.525 2.568c2.336 0 4.448.902 6.056 2.587 1.224 1.272 1.912 2.619 2.264 4.392.12.59.12 2.2.007 2.864a8.506 8.506 0
+                                        01-3.24 5.296c-.608.46-2.096 1.261-2.336 1.261-.088 0-.096-.091-.056-.46.072-.592.144-.715.48-.856.536-.224 1.448-.874
+                                        2.008-1.435a7.644 7.644 0
+                                        002.008-3.536c.208-.824.184-2.656-.048-3.504-.728-2.696-2.928-4.792-5.624-5.352-.784-.16-2.208-.16-3 0-2.728.56-4.984
+                                        2.76-5.672 5.528-.184.752-.184 2.584 0 3.336.456 1.832 1.64 3.512 3.192
+                                        4.512.304.2.672.408.824.472.336.144.408.264.472.856.04.36.03.464-.056.464-.056
+                                        0-.464-.176-.896-.384l-.04-.03c-2.472-1.216-4.056-3.274-4.632-6.012-.144-.706-.168-2.392-.03-3.04.36-1.74 1.048-3.1
+                                        2.192-4.304 1.648-1.737 3.768-2.656 6.128-2.656zm.134 2.81c.409.004.803.04 1.106.106 2.784.62 4.76 3.408 4.376 6.174-.152
+                                        1.114-.536 2.03-1.216 2.88-.336.43-1.152 1.15-1.296 1.15-.023 0-.048-.272-.048-.603v-.605l.416-.496c1.568-1.878
+                                        1.456-4.502-.256-6.224-.664-.67-1.432-1.064-2.424-1.246-.64-.118-.776-.118-1.448-.008-1.02.167-1.81.562-2.512 1.256-1.72
+                                        1.704-1.832 4.342-.264 6.222l.413.496v.608c0 .336-.027.608-.06.608-.03
+                                        0-.264-.16-.512-.36l-.034-.011c-.832-.664-1.568-1.842-1.872-2.997-.184-.698-.184-2.024.008-2.72.504-1.878 1.888-3.335
+                                        3.808-4.019.41-.145 1.133-.22 1.814-.211zm-.13 2.99c.31 0 .62.06.844.178.488.253.888.745 1.04 1.259.464 1.578-1.208
+                                        2.96-2.72 2.254h-.015c-.712-.331-1.096-.956-1.104-1.77 0-.733.408-1.371 1.112-1.745.224-.117.534-.176.844-.176zm-.011
+                                        4.728c.988-.004 1.706.349 1.97.97.198.464.124 1.932-.218 4.302-.232 1.656-.36 2.074-.68
+                                        2.356-.44.39-1.064.498-1.656.288h-.003c-.716-.257-.87-.605-1.164-2.644-.341-2.37-.416-3.838-.218-4.302.262-.616.974-.966
+                                        1.97-.97z"></path>
+                                </svg>
+                                <div>
+                                    <p class="text-sm text-gray-500">Listen on</p>
+                                    <p class="font-bold text-white">Apple Podcasts</p>
+                                </div>
+                            </a>
+                            <a
+                                target="_blank"
+                                href="https://anchor.fm/s/f7f18900/podcast/rss"
+                                class="border rounded-lg border-solid border-[#7e7e81] text-white  flex flex-row gap-2 p-2">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 24 24"
+                                    fill="currentColor"
+                                    aria-hidden="true"
+                                    data-slot="icon"
+                                    class="w-10">
+                                    <path
+                                        fill-rule="evenodd"
+                                        d="M3.75 4.5a.75.75 0 0 1 .75-.75h.75c8.284 0 15 6.716 15 15v.75a.75.75 0 0 1-.75.75h-.75a.75.75 0 0 1-.75-.75v-.75C18
+                                            11.708 12.292 6 5.25 6H4.5a.75.75 0 0 1-.75-.75V4.5Zm0 6.75a.75.75 0 0 1 .75-.75h.75a8.25 8.25 0 0 1 8.25 8.25v.75a.75.75
+                                            0 0 1-.75.75H12a.75.75 0 0 1-.75-.75v-.75a6 6 0 0 0-6-6H4.5a.75.75 0 0 1-.75-.75v-.75Zm0 7.5a1.5 1.5 0 1 1 3 0 1.5 1.5 0
+                                            0 1-3 0Z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                                <div>
+                                    <p class="text-sm text-gray-500">Listen on</p>
+                                    <p class="font-bold text-white">RSS Feed</p>
+                                </div>
+                            </a>
+                        </a>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="bg-white mb-20 px-10">
+    <div class="max-w-7xl container mx-auto my-10">
+        <div class="flex justify-center flex-col items-center">
+            <h2 class="text-4xl text-primary text-center font-bold">
+                <span class="text-secondary italic">Featured</span>
+                Episodes
+            </h2>
+            <div class="flex lg:flex-row flex-col md:grid grid-cols-3 my-10 gap-10">
+                
+                    <div class="w-full border rounded-lg p-4 hover:shadow">
+                        <div class="flex flex-col gap-4 justify-center">
+                            <a target="_blank" href="https://podcasters.spotify.com/pod/show/gbe/episodes/API-Monitoring-and-Observability-for-Backend-Engineers-e2m077i" class="flex w-ful gap-0 hover:text-secondary">
+                                <h2 class="text-xl font-medium">API Monitoring and Observability for Backend Engineers</h2>
+                            </a>
+                        </div>
+                        <div class="py-5">
+                            <audio controls>
+                                <source src="https://anchor.fm/s/f7f18900/podcast/play/89184946/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-13%2F383125039-44100-2-4693f0b83ecbf.m4a" type="audio/x-m4a">
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </div>
+                        </div>
+                    
+                    <div class="w-full border rounded-lg p-4 hover:shadow">
+                        <div class="flex flex-col gap-4 justify-center">
+                            <a target="_blank" href="https://podcasters.spotify.com/pod/show/gbe/episodes/Importance-of-Database-in-Backend-engineering-e2l68f9" class="flex w-ful gap-0 hover:text-secondary">
+                                <h2 class="text-xl font-medium">Importance of Database in Backend engineering</h2>
+                            </a>
+                        </div>
+                        <div class="py-5">
+                            <audio controls>
+                                <source src="https://anchor.fm/s/f7f18900/podcast/play/88334249/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-5-22%2F381375831-44100-2-faabd668e482.m4a" type="audio/x-m4a">
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </div>
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+    <footer>
+      <div class="pb-3 pt-2">
+        <a
+          href="https://nuxifysaas.com?ref=Backendweekly&utm_source=Backendweekly"
+          class="flex gap-2 items-center justify-center py-1 px-5"
+        >
+          <p>Built with</p>
+          <img
+            class="w-32 h-6"
+            src="https://nuxifysaas.com/images/logo.png"
+            alt=""
+          />
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>

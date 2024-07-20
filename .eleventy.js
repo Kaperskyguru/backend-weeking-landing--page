@@ -5,6 +5,11 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(allPlugins);
 
   eleventyConfig.addPassthroughCopy({ "img/favicon.ico": "/" });
+  eleventyConfig.addPassthroughCopy({ "img/apple.png": "/" });
+
+  eleventyConfig.addShortcode("html", function (code) {
+    return `<div>${code}</div>`;
+  });
 
   // Image plugin
   eleventyConfig.addShortcode("image", async function (src, alt, sizes) {
