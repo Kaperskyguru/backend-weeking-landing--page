@@ -11,7 +11,7 @@ Tune in to learn how to become a great backend engineer from the experiences of 
 			<link>https://masteringbackend.com</link>
 		</image>
 		<generator>Anchor Podcasts</generator>
-		<lastBuildDate>Wed, 17 Jul 2024 01:01:16 GMT</lastBuildDate>
+		<lastBuildDate>Sat, 27 Jul 2024 13:49:05 GMT</lastBuildDate>
 		<atom:link href="https://anchor.fm/s/f7f18900/podcast/rss" rel="self" type="application/rss+xml"/>
 		<author><![CDATA[Solomon Eseme]]></author>
 		<copyright><![CDATA[Solomon Eseme]]></copyright>
@@ -30,6 +30,57 @@ Tune in to learn how to become a great backend engineer from the experiences of 
 		<itunes:category text="Technology"/>
 		<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41498016/41498016-1721177709820-44dfa766ca88f.jpg"/>
 		<item>
+			<title><![CDATA[Building better softwares using internal tools]]></title>
+			<description><![CDATA[<p>Another Episode of the GBE Podcast on &quot;Building better software using internal tools&quot;</p>
+<p><br></p>
+<p>This episode is sponsored by <a href="https://alerty.ai?ref=gbe_podcast?utm_source=gbe_podcast" target="_blank" rel="noopener noreferer">Alerty.ai</a></p>
+<p><br></p>
+<p>In this episode, I host Johnny Dallas, a backend software engineer with over 8+ years of experience, to discuss the following concepts.</p>
+<p><br></p>
+<p>- How far can a solo dev scale?</p>
+<p>- What is DevOps, and why do we need it?</p>
+<p>- Why does internal tooling matter?</p>
+<p>- Why does CI/CD matter? Why is deployment so complicated?</p>
+<p>- What is monitoring, what is observability? Why are they important?</p>
+<p>- How do you monitor a web app?</p>
+<p>- How does observability scale with infrastructure complexity?</p>
+<p>- Building better software</p>
+<p>- What’s relevant to the backend engineer (managing 50 servers)</p>
+<p>- JavaScript monitoring</p>
+<p><br></p>
+<p>If you&#39;re interested in this kind of discussion. Then, consider subscribing to the <a href="https://studio.youtube.com/channel/UCECTWjjj21fa2bNQ07PKE3A" target="_blank" rel="noopener noreferer">YouTube channel</a> and turning on the notification.</p>
+]]></description>
+			<link>https://podcasters.spotify.com/pod/show/gbe/episodes/Building-better-softwares-using-internal-tools-e2m8ilv</link>
+			<guid isPermaLink="false">2b14d135-2813-4e45-bcb4-9225871be545</guid>
+			<dc:creator><![CDATA[Solomon Eseme]]></dc:creator>
+			<pubDate>Sat, 27 Jul 2024 13:38:35 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/f7f18900/podcast/play/89458815/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-27%2F383909109-44100-2-b6820261e64c2.m4a" length="55113328" type="audio/x-m4a"/>
+			<itunes:summary>&lt;p&gt;Another Episode of the GBE Podcast on &amp;quot;Building better software using internal tools&amp;quot;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;This episode is sponsored by &lt;a href=&quot;https://alerty.ai?ref=gbe_podcast?utm_source=gbe_podcast&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferer&quot;&gt;Alerty.ai&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;In this episode, I host Johnny Dallas, a backend software engineer with over 8+ years of experience, to discuss the following concepts.&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;- How far can a solo dev scale?&lt;/p&gt;
+&lt;p&gt;- What is DevOps, and why do we need it?&lt;/p&gt;
+&lt;p&gt;- Why does internal tooling matter?&lt;/p&gt;
+&lt;p&gt;- Why does CI/CD matter? Why is deployment so complicated?&lt;/p&gt;
+&lt;p&gt;- What is monitoring, what is observability? Why are they important?&lt;/p&gt;
+&lt;p&gt;- How do you monitor a web app?&lt;/p&gt;
+&lt;p&gt;- How does observability scale with infrastructure complexity?&lt;/p&gt;
+&lt;p&gt;- Building better software&lt;/p&gt;
+&lt;p&gt;- What’s relevant to the backend engineer (managing 50 servers)&lt;/p&gt;
+&lt;p&gt;- JavaScript monitoring&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;If you&amp;#39;re interested in this kind of discussion. Then, consider subscribing to the &lt;a href=&quot;https://studio.youtube.com/channel/UCECTWjjj21fa2bNQ07PKE3A&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferer&quot;&gt;YouTube channel&lt;/a&gt; and turning on the notification.&lt;/p&gt;
+</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>00:56:47</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41498016/41498016-1722086081548-0d019b3b5332f.jpg"/>
+			<itunes:episode>3</itunes:episode>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+		<item>
 			<title><![CDATA[API Monitoring and Observability for Backend Engineers]]></title>
 			<description><![CDATA[<p><strong>Summary</strong></p>
 <p>In our latest podcast, we had the pleasure of hosting Anthony to discuss the crucial aspects of API Monitoring and Observability. Anthony shared his extensive experience, covering everything from the basics of structured logging to advanced monitoring strategies. Here&#39;s a recap of the key points and insights from our conversation.</p>
@@ -45,8 +96,8 @@ Tune in to learn how to become a great backend engineer from the experiences of 
 <ul>
  <li><strong>Prometheus</strong> for metrics collection and alerting.</li>
  <li><strong>Grafana</strong> for real-time dashboards.</li>
-  <li><strong>Datadog</strong> for comprehensive monitoring, logging, and analytics.</li>
-  <li><strong>ELK Stack</strong> for log management and analysis.</li>
+ <li><strong>Datadog</strong> for comprehensive monitoring, logging, and analytics.</li>
+ <li><strong>ELK Stack</strong> for log management and analysis.</li>
 </ul>
 <p><em><strong>Building a Robust Monitoring Strategy</strong></em></p>
 <p>For backend engineers starting with API monitoring and observability, Anthony outlined key steps to build a robust strategy:</p>
@@ -92,8 +143,8 @@ Tune in to learn how to become a great backend engineer from the experiences of 
 &lt;ul&gt;
  &lt;li&gt;&lt;strong&gt;Prometheus&lt;/strong&gt; for metrics collection and alerting.&lt;/li&gt;
  &lt;li&gt;&lt;strong&gt;Grafana&lt;/strong&gt; for real-time dashboards.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Datadog&lt;/strong&gt; for comprehensive monitoring, logging, and analytics.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;ELK Stack&lt;/strong&gt; for log management and analysis.&lt;/li&gt;
+ &lt;li&gt;&lt;strong&gt;Datadog&lt;/strong&gt; for comprehensive monitoring, logging, and analytics.&lt;/li&gt;
+ &lt;li&gt;&lt;strong&gt;ELK Stack&lt;/strong&gt; for log management and analysis.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;Building a Robust Monitoring Strategy&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;For backend engineers starting with API monitoring and observability, Anthony outlined key steps to build a robust strategy:&lt;/p&gt;
@@ -122,7 +173,7 @@ Tune in to learn how to become a great backend engineer from the experiences of 
 </itunes:summary>
 			<itunes:explicit>No</itunes:explicit>
 			<itunes:duration>01:20:10</itunes:duration>
-			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41498016/41498016-1721177709820-44dfa766ca88f.jpg"/>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41498016/41498016-1721492101535-fc07fcb3799b.jpg"/>
 			<itunes:episodeType>full</itunes:episodeType>
 		</item>
 		<item>
@@ -133,8 +184,8 @@ Tune in to learn how to become a great backend engineer from the experiences of 
 <ul>
  <li>- Why mastering databases is important</li>
  <li>- What are the most common mistakes backend engineers make with databases</li>
-  <li>- How database experience saved the day</li>
-  <li>- How do you see the role of databases evolving in the next five years</li>
+ <li>- How database experience saved the day</li>
+ <li>- How do you see the role of databases evolving in the next five years</li>
   <li>- Advice for new backend engineers.</li>
 </ul>
 <p>We discussed topics such as:</p>
@@ -161,8 +212,8 @@ Tune in to learn how to become a great backend engineer from the experiences of 
 &lt;ul&gt;
  &lt;li&gt;- Why mastering databases is important&lt;/li&gt;
  &lt;li&gt;- What are the most common mistakes backend engineers make with databases&lt;/li&gt;
-  &lt;li&gt;- How database experience saved the day&lt;/li&gt;
-  &lt;li&gt;- How do you see the role of databases evolving in the next five years&lt;/li&gt;
+ &lt;li&gt;- How database experience saved the day&lt;/li&gt;
+ &lt;li&gt;- How do you see the role of databases evolving in the next five years&lt;/li&gt;
   &lt;li&gt;- Advice for new backend engineers.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;We discussed topics such as:&lt;/p&gt;
@@ -180,7 +231,7 @@ Tune in to learn how to become a great backend engineer from the experiences of 
 </itunes:summary>
 			<itunes:explicit>No</itunes:explicit>
 			<itunes:duration>00:59:21</itunes:duration>
-			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41498016/41498016-1721177709820-44dfa766ca88f.jpg"/>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41498016/41498016-1721492136288-072384d77616f.jpg"/>
 			<itunes:episodeType>full</itunes:episodeType>
 		</item>
 	</channel>
