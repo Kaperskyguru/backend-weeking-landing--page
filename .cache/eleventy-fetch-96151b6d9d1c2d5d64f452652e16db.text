@@ -11,7 +11,7 @@ Tune in to learn how to become a great backend engineer from the experiences of 
 			<link>https://masteringbackend.com</link>
 		</image>
 		<generator>Anchor Podcasts</generator>
-		<lastBuildDate>Sat, 27 Jul 2024 13:49:05 GMT</lastBuildDate>
+		<lastBuildDate>Sat, 17 Aug 2024 13:47:56 GMT</lastBuildDate>
 		<atom:link href="https://anchor.fm/s/f7f18900/podcast/rss" rel="self" type="application/rss+xml"/>
 		<author><![CDATA[Solomon Eseme]]></author>
 		<copyright><![CDATA[Solomon Eseme]]></copyright>
@@ -29,6 +29,58 @@ Tune in to learn how to become a great backend engineer from the experiences of 
 		<itunes:explicit>No</itunes:explicit>
 		<itunes:category text="Technology"/>
 		<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41498016/41498016-1721177709820-44dfa766ca88f.jpg"/>
+		<item>
+			<title><![CDATA[Importance of Data Structures and Algorithms For Backend Engineers]]></title>
+			<description><![CDATA[<p>In this episode of the “Great Backend Engineer” podcast, we’re thrilled to have Fernando join us as our 4th guest! With his extensive experience in backend engineering, Fernando shares invaluable insights on a critical topic: &quot;Do Backend Engineers Need Data Structures and Algorithms?&quot;</p>
+<p><br></p>
+<p>We dive deep into why these foundational concepts are essential, how often they’re used in daily backend tasks, and the real-world impact they can have on the performance and scalability of backend systems. </p>
+<p><br></p>
+<p>Fernando also discusses common pitfalls for engineers who may lack a strong grasp of these concepts and offers practical advice for those looking to strengthen their knowledge.</p>
+<p><br></p>
+<p>Whether you’re a seasoned backend engineer or just starting, this episode is packed with actionable strategies and expert advice to help you level up your backend skills.</p>
+<p><br></p>
+<p>🔔 Don’t forget to subscribe to our channel for more episodes from the “Great Backend Engineer” series!</p>
+<p><br></p>
+<p>#BackendEngineering #DataStructures #Algorithms #AdvancedBackendBootcamp #SoftwareDevelopment #TechPodcast</p>
+<p><br></p>
+<p>LINKS</p>
+<p><br></p>
+<p>Academy: https://academy.masteringbackend.com</p>
+<p>Masteringbackend: https://masteringbackend.com</p>
+<p>Fernando Newsletter: https://newsletter.francofernando.com/</p>
+<p>Fernando Twitter: https://x.com/Franc0Fernand0</p>
+<p>Fernando LinkedIn: https://linkedin.com/in/fernando-franco-4696708</p>
+]]></description>
+			<link>https://podcasters.spotify.com/pod/show/gbe/episodes/Importance-of-Data-Structures-and-Algorithms-For-Backend-Engineers-e2n9ooj</link>
+			<guid isPermaLink="false">dfc92fae-0d28-4793-8ed4-b42f93a12758</guid>
+			<dc:creator><![CDATA[Solomon Eseme]]></dc:creator>
+			<pubDate>Sat, 17 Aug 2024 13:35:12 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/f7f18900/podcast/play/90546387/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-17%2F384905795-44100-2-7f4e8f6f6a3a1.m4a" length="53124346" type="audio/x-m4a"/>
+			<itunes:summary>&lt;p&gt;In this episode of the “Great Backend Engineer” podcast, we’re thrilled to have Fernando join us as our 4th guest! With his extensive experience in backend engineering, Fernando shares invaluable insights on a critical topic: &amp;quot;Do Backend Engineers Need Data Structures and Algorithms?&amp;quot;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;We dive deep into why these foundational concepts are essential, how often they’re used in daily backend tasks, and the real-world impact they can have on the performance and scalability of backend systems. &lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;Fernando also discusses common pitfalls for engineers who may lack a strong grasp of these concepts and offers practical advice for those looking to strengthen their knowledge.&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;Whether you’re a seasoned backend engineer or just starting, this episode is packed with actionable strategies and expert advice to help you level up your backend skills.&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;🔔 Don’t forget to subscribe to our channel for more episodes from the “Great Backend Engineer” series!&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;#BackendEngineering #DataStructures #Algorithms #AdvancedBackendBootcamp #SoftwareDevelopment #TechPodcast&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;LINKS&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;Academy: https://academy.masteringbackend.com&lt;/p&gt;
+&lt;p&gt;Masteringbackend: https://masteringbackend.com&lt;/p&gt;
+&lt;p&gt;Fernando Newsletter: https://newsletter.francofernando.com/&lt;/p&gt;
+&lt;p&gt;Fernando Twitter: https://x.com/Franc0Fernand0&lt;/p&gt;
+&lt;p&gt;Fernando LinkedIn: https://linkedin.com/in/fernando-franco-4696708&lt;/p&gt;
+</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>00:54:44</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41498016/41498016-1723901603662-e38c2c264fb45.jpg"/>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
 		<item>
 			<title><![CDATA[Building better softwares using internal tools]]></title>
 			<description><![CDATA[<p>Another Episode of the GBE Podcast on &quot;Building better software using internal tools&quot;</p>
