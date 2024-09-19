@@ -11,7 +11,7 @@ Tune in to learn how to become a great backend engineer from the experiences of 
 			<link>https://masteringbackend.com</link>
 		</image>
 		<generator>Anchor Podcasts</generator>
-		<lastBuildDate>Sat, 07 Sep 2024 01:46:34 GMT</lastBuildDate>
+		<lastBuildDate>Tue, 17 Sep 2024 15:07:37 GMT</lastBuildDate>
 		<atom:link href="https://anchor.fm/s/f7f18900/podcast/rss" rel="self" type="application/rss+xml"/>
 		<author><![CDATA[Solomon Eseme]]></author>
 		<copyright><![CDATA[Solomon Eseme]]></copyright>
@@ -29,6 +29,74 @@ Tune in to learn how to become a great backend engineer from the experiences of 
 		<itunes:explicit>No</itunes:explicit>
 		<itunes:category text="Technology"/>
 		<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41498016/41498016-1721177709820-44dfa766ca88f.jpg"/>
+		<item>
+			<title><![CDATA[Microservices for Backend Engineers]]></title>
+			<description><![CDATA[<p>In this episode of the “The Backend Podcast, we’re thrilled to have Vikas Rajpu join us as our 5th guest! With his extensive experience in backend engineering, Vikas shares invaluable insights on a critical topic: &quot;Microservices for Backend Engineers&quot;
+
+This podcast will cover:
+
+• What are Microservices?
+• Why do we need them in the first place?
+• How do we transition from Monolith to Microservice?
+• How to build a secure Microservice?
+• How to scale Microservice?
+• Popular design patterns in Microservice
+• When not to use Microservice?
+
+🔔 Don’t forget to subscribe to our channel for more episodes from the “Great Backend Engineer” series!
+
+<a href="https://www.youtube.com/hashtag/backendengineering">#BackendEngineering</a> <a href="https://www.youtube.com/hashtag/datastructures">#DataStructures</a> <a href="https://www.youtube.com/hashtag/algorithms">#Algorithms</a> <a href="https://www.youtube.com/hashtag/advancedbackendbootcamp">#AdvancedBackendBootcamp</a> <a href="https://www.youtube.com/hashtag/softwaredevelopment">#SoftwareDevelopment</a> <a href="https://www.youtube.com/hashtag/techpodcast">#TechPodcast</a>
+
+LINKS
+Academy: <a href="https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqblFvbE9GYy1QNVJqQzVyLVgxX1lQcGFFeXlZUXxBQ3Jtc0tubms5blJJRVUzYXdORFpsbk1VaUx2NmNHS1NiYjAzWjVwanZ0SEYtTVI1anBBSmh4RGhCV3lYaEhPdTNEUWNhTVFEUHg5WFhQdnlDREJYRElsaExfLVl0ZE1UOE5iRkFIRGoyT0U1d0U5SlNQeFpvRQ&q=https%3A%2F%2Facademy.masteringbackend.com%2F&v=casOePA-lws" target="_blank" rel="nofollow">https://academy.masteringbackend.com</a>
+Masteringbackend: <a href="https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqazUtS05qaFJHOHRNVC1aR1ZYWUR4QzVCWFpaUXxBQ3Jtc0tsRkxYY0hySlpRanp3T0ltWG5ueEZ4UlRKWDFzd21Cby1NeGhYWmF5Y0txeC1DMnJKUjNpQ2Y4aDZmYmwwdWtTbTdtdTNVSTBRbk5nUnVvdUNiMHp3YUQzcGhPeXRQb3VhVWZVVElCRDgtS0szeGVHQQ&q=https%3A%2F%2Fmasteringbackend.com%2F&v=casOePA-lws" target="_blank" rel="nofollow">https://masteringbackend.com</a>
+
+My Twitter: <a href="https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbWlscTQ4LUl2MHhSVm54emcwTjV1VVNGaWpFZ3xBQ3Jtc0trU05iRE9aOG1ibmxISmU3aVJ1SnR3Qm1oVU9tQXdLbEpGQVJMdE4yREdwTENXbWRpT3UyVk5IT1VZVVFTYkE1a2ZmSld1Z05ieVRFRDNyTXhpYksxOXV1SUVPQ3NJMFRUdUFTeWhqbEJ3VExJajR6UQ&q=https%3A%2F%2Fx.com%2Fkaperskyguru&v=casOePA-lws" target="_blank" rel="nofollow">https://x.com/kaperskyguru</a>
+My LinkedIn: <a href="https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbm1YZm5RdkRDT3VwVmxTQVliRTdoVU5Yd0tmZ3xBQ3Jtc0trVnM4QmtZZGtFZmczcGthS290U2NKaUw3MnVfdzREUUVXVGptX0luMlRuWGRoR010TUlGczdac3k2NklVNXhvNGpDTEhGNE9QQnpQbW0zTHk5X2U4aTRYRXh0X3JaazZIdEJaeF8xVHk5cnpOZkhvUQ&q=https%3A%2F%2Flinkedin.com%2Fin%2Fsolomoneseme%2F&v=casOePA-lws" target="_blank" rel="nofollow">  / solomoneseme  </a>
+
+Vikas Twitter: <a href="https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqazNrQTQ5R1RsV0YzYThPWlhvbFR1aXZiVjU3UXxBQ3Jtc0trbkhsX0lTOERDRUZWTUNGYnJDZTVMeTF4ZGJHSXBqRTVYNDVjcXVoWFZFQ25RZm90R0F2akVwRkx0VF8tVjlTWXJnOGdvTW9PTFlGVHpiSlpRRHNsTkhjSEQ0LS1YZVVaNGx2Zk1xZlpRTUVFQkV3bw&q=https%3A%2F%2Fx.com%2Fvikasrajputin&v=casOePA-lws" target="_blank" rel="nofollow">https://x.com/vikasrajputin</a>
+Vikas LinkedIn: <a href="https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbVdENktDQk1FR09zOHY4LUlvajBwMmRWR2hMZ3xBQ3Jtc0trTkRXTTkwcERuTzlhYXRpZnBvNXdOdld1bEZBY3NVQnFCdlFlMnhvUTV6cnl6NVNxWkp3eUNsM0poNF9nODFyOFpyX2x0STdTdTNRaUk2ZkN2c2M4SzJJRUFJT3pJTTZBa3Y3ZUxneTNXWnY3ZHk0WQ&q=https%3A%2F%2Flinkedin.com%2Fin%2Fvikasrajputin%2F&v=casOePA-lws" target="_blank" rel="nofollow">  / vikasrajputin  </a>
+Vikas Instagram: <a href="https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbHd6ZHp3UUVSREdYZWRqZVF3bi1WZmV4bm5wUXxBQ3Jtc0ttUnM2OVJuRFZqbEhoNE5mbVFXZlRJS2gyaWZjVDFtTldhbkx1UjJXMnFWWjVIdGpaVTNYOS1kR2hkcVZxTzlieEFnSEUxRU9LS1hxc1dlTUVlRGVnaWRCTzRaWW9ZUExPRUxqZE5sTU5EUnVvRTJaZw&q=https%3A%2F%2Finstagram.com%2Fvikasrajputin%2F&v=casOePA-lws" target="_blank" rel="nofollow">  / vikasrajputin  </a>
+Vikas Website: <a href="https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbXI1SXdZTlB3VGIwT1FsaHgtV2dnTlRYVzhTQXxBQ3Jtc0tuQ3dkU056NEVGSlFsY1R5SWhjd2pSd3Z1b1l4cEM2aHN4NXhka0F1NnlpVGgyNGlDZDk5MW5hanQ1ZVBCSVVnMngxVG1sb1hYTW1mLWdFczAxS1RYVUVZZWRQMU03b1J2M001aVFrU1JFbWNNX3QyRQ&q=https%3A%2F%2Fvikasrajput.in%2F&v=casOePA-lws" target="_blank" rel="nofollow">https://vikasrajput.in</a><a href="https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbTcwVGZBemZpTXJmM0xZSVJERGFmT3B6NUVCUXxBQ3Jtc0trV1ZZQ3Z4M29lZlNmTW5zSk16czhzOXp6anNKUFpLaFlFQlllaFhvWkZjdnJGa2J4MWxETVprSlprVjRSVmdIaXVhTzBCaFZhc0pmckhYekxCR01NRFRqSkN1OXVqQzhTSV9pNGI1RWJqeWRneEFEUQ&q=https%3A%2F%2Fmicroservice.io%2F&v=casOePA-lws" target="_blank" rel="nofollow">https://microservice.io</a></p>
+]]></description>
+			<link>https://podcasters.spotify.com/pod/show/gbe/episodes/Microservices-for-Backend-Engineers-e2ogt06</link>
+			<guid isPermaLink="false">f7bc5d85-18af-4ef2-95ad-117879cf8464</guid>
+			<dc:creator><![CDATA[Solomon Eseme]]></dc:creator>
+			<pubDate>Tue, 17 Sep 2024 15:03:02 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/f7f18900/podcast/play/91828678/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-8-17%2F386528398-44100-2-87376de41b9da.m4a" length="56927462" type="audio/x-m4a"/>
+			<itunes:summary>&lt;p&gt;In this episode of the “The Backend Podcast, we’re thrilled to have Vikas Rajpu join us as our 5th guest! With his extensive experience in backend engineering, Vikas shares invaluable insights on a critical topic: &amp;quot;Microservices for Backend Engineers&amp;quot;
+
+This podcast will cover:
+
+• What are Microservices?
+• Why do we need them in the first place?
+• How do we transition from Monolith to Microservice?
+• How to build a secure Microservice?
+• How to scale Microservice?
+• Popular design patterns in Microservice
+• When not to use Microservice?
+
+🔔 Don’t forget to subscribe to our channel for more episodes from the “Great Backend Engineer” series!
+
+&lt;a href=&quot;https://www.youtube.com/hashtag/backendengineering&quot;&gt;#BackendEngineering&lt;/a&gt; &lt;a href=&quot;https://www.youtube.com/hashtag/datastructures&quot;&gt;#DataStructures&lt;/a&gt; &lt;a href=&quot;https://www.youtube.com/hashtag/algorithms&quot;&gt;#Algorithms&lt;/a&gt; &lt;a href=&quot;https://www.youtube.com/hashtag/advancedbackendbootcamp&quot;&gt;#AdvancedBackendBootcamp&lt;/a&gt; &lt;a href=&quot;https://www.youtube.com/hashtag/softwaredevelopment&quot;&gt;#SoftwareDevelopment&lt;/a&gt; &lt;a href=&quot;https://www.youtube.com/hashtag/techpodcast&quot;&gt;#TechPodcast&lt;/a&gt;
+
+LINKS
+Academy: &lt;a href=&quot;https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqblFvbE9GYy1QNVJqQzVyLVgxX1lQcGFFeXlZUXxBQ3Jtc0tubms5blJJRVUzYXdORFpsbk1VaUx2NmNHS1NiYjAzWjVwanZ0SEYtTVI1anBBSmh4RGhCV3lYaEhPdTNEUWNhTVFEUHg5WFhQdnlDREJYRElsaExfLVl0ZE1UOE5iRkFIRGoyT0U1d0U5SlNQeFpvRQ&amp;q=https%3A%2F%2Facademy.masteringbackend.com%2F&amp;v=casOePA-lws&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;https://academy.masteringbackend.com&lt;/a&gt;
+Masteringbackend: &lt;a href=&quot;https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqazUtS05qaFJHOHRNVC1aR1ZYWUR4QzVCWFpaUXxBQ3Jtc0tsRkxYY0hySlpRanp3T0ltWG5ueEZ4UlRKWDFzd21Cby1NeGhYWmF5Y0txeC1DMnJKUjNpQ2Y4aDZmYmwwdWtTbTdtdTNVSTBRbk5nUnVvdUNiMHp3YUQzcGhPeXRQb3VhVWZVVElCRDgtS0szeGVHQQ&amp;q=https%3A%2F%2Fmasteringbackend.com%2F&amp;v=casOePA-lws&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;https://masteringbackend.com&lt;/a&gt;
+
+My Twitter: &lt;a href=&quot;https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqbWlscTQ4LUl2MHhSVm54emcwTjV1VVNGaWpFZ3xBQ3Jtc0trU05iRE9aOG1ibmxISmU3aVJ1SnR3Qm1oVU9tQXdLbEpGQVJMdE4yREdwTENXbWRpT3UyVk5IT1VZVVFTYkE1a2ZmSld1Z05ieVRFRDNyTXhpYksxOXV1SUVPQ3NJMFRUdUFTeWhqbEJ3VExJajR6UQ&amp;q=https%3A%2F%2Fx.com%2Fkaperskyguru&amp;v=casOePA-lws&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;https://x.com/kaperskyguru&lt;/a&gt;
+My LinkedIn: &lt;a href=&quot;https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqbm1YZm5RdkRDT3VwVmxTQVliRTdoVU5Yd0tmZ3xBQ3Jtc0trVnM4QmtZZGtFZmczcGthS290U2NKaUw3MnVfdzREUUVXVGptX0luMlRuWGRoR010TUlGczdac3k2NklVNXhvNGpDTEhGNE9QQnpQbW0zTHk5X2U4aTRYRXh0X3JaazZIdEJaeF8xVHk5cnpOZkhvUQ&amp;q=https%3A%2F%2Flinkedin.com%2Fin%2Fsolomoneseme%2F&amp;v=casOePA-lws&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;  / solomoneseme  &lt;/a&gt;
+
+Vikas Twitter: &lt;a href=&quot;https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqazNrQTQ5R1RsV0YzYThPWlhvbFR1aXZiVjU3UXxBQ3Jtc0trbkhsX0lTOERDRUZWTUNGYnJDZTVMeTF4ZGJHSXBqRTVYNDVjcXVoWFZFQ25RZm90R0F2akVwRkx0VF8tVjlTWXJnOGdvTW9PTFlGVHpiSlpRRHNsTkhjSEQ0LS1YZVVaNGx2Zk1xZlpRTUVFQkV3bw&amp;q=https%3A%2F%2Fx.com%2Fvikasrajputin&amp;v=casOePA-lws&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;https://x.com/vikasrajputin&lt;/a&gt;
+Vikas LinkedIn: &lt;a href=&quot;https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqbVdENktDQk1FR09zOHY4LUlvajBwMmRWR2hMZ3xBQ3Jtc0trTkRXTTkwcERuTzlhYXRpZnBvNXdOdld1bEZBY3NVQnFCdlFlMnhvUTV6cnl6NVNxWkp3eUNsM0poNF9nODFyOFpyX2x0STdTdTNRaUk2ZkN2c2M4SzJJRUFJT3pJTTZBa3Y3ZUxneTNXWnY3ZHk0WQ&amp;q=https%3A%2F%2Flinkedin.com%2Fin%2Fvikasrajputin%2F&amp;v=casOePA-lws&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;  / vikasrajputin  &lt;/a&gt;
+Vikas Instagram: &lt;a href=&quot;https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqbHd6ZHp3UUVSREdYZWRqZVF3bi1WZmV4bm5wUXxBQ3Jtc0ttUnM2OVJuRFZqbEhoNE5mbVFXZlRJS2gyaWZjVDFtTldhbkx1UjJXMnFWWjVIdGpaVTNYOS1kR2hkcVZxTzlieEFnSEUxRU9LS1hxc1dlTUVlRGVnaWRCTzRaWW9ZUExPRUxqZE5sTU5EUnVvRTJaZw&amp;q=https%3A%2F%2Finstagram.com%2Fvikasrajputin%2F&amp;v=casOePA-lws&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;  / vikasrajputin  &lt;/a&gt;
+Vikas Website: &lt;a href=&quot;https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqbXI1SXdZTlB3VGIwT1FsaHgtV2dnTlRYVzhTQXxBQ3Jtc0tuQ3dkU056NEVGSlFsY1R5SWhjd2pSd3Z1b1l4cEM2aHN4NXhka0F1NnlpVGgyNGlDZDk5MW5hanQ1ZVBCSVVnMngxVG1sb1hYTW1mLWdFczAxS1RYVUVZZWRQMU03b1J2M001aVFrU1JFbWNNX3QyRQ&amp;q=https%3A%2F%2Fvikasrajput.in%2F&amp;v=casOePA-lws&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;https://vikasrajput.in&lt;/a&gt;&lt;a href=&quot;https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqbTcwVGZBemZpTXJmM0xZSVJERGFmT3B6NUVCUXxBQ3Jtc0trV1ZZQ3Z4M29lZlNmTW5zSk16czhzOXp6anNKUFpLaFlFQlllaFhvWkZjdnJGa2J4MWxETVprSlprVjRSVmdIaXVhTzBCaFZhc0pmckhYekxCR01NRFRqSkN1OXVqQzhTSV9pNGI1RWJqeWRneEFEUQ&amp;q=https%3A%2F%2Fmicroservice.io%2F&amp;v=casOePA-lws&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;https://microservice.io&lt;/a&gt;&lt;/p&gt;
+</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>00:58:39</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41498016/41498016-1726584865171-ca218e1ae6f0d.jpg"/>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
 		<item>
 			<title><![CDATA[Importance of Data Structures and Algorithms For Backend Engineers]]></title>
 			<description><![CDATA[<p>In this episode of the “Great Backend Engineer” podcast, we’re thrilled to have Fernando join us as our 4th guest! With his extensive experience in backend engineering, Fernando shares invaluable insights on a critical topic: &quot;Do Backend Engineers Need Data Structures and Algorithms?&quot;</p>
